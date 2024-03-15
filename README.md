@@ -298,7 +298,7 @@ void desEncrypt(const unsigned char* plaintext, const unsigned char subkeys[16][
 int main() {
     // Input key and plaintext (8 characters each)
     const char* key = "#4>";
-    const char* plaintext = "computer";
+    const char* plaintext = "arun";
 
     unsigned char subkeys[16][6];
     generateSubKeys((const unsigned char*)key, subkeys);
